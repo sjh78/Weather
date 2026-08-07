@@ -2,14 +2,16 @@ name: Update Weather
 
 on:
 
-workflow_dispatch:
+  workflow_dispatch: {}
 
 jobs:
 
-test:
+  test:
 
-runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
-steps:
+    steps:
 
-- run: echo "Hello"
+    - name: Test
+
+      run: echo "Hello"
