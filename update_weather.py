@@ -44,23 +44,41 @@ with open("weather.csv", "w", newline="", encoding="utf-8") as csvfile:
     writer = csv.writer(csvfile)
 
     writer.writerow([
-        "Station",
-        "Date",
-        "Hour",
-        "Temperature",
-        "RH",
-        "WindDirection"
+    "Station",
+    "Date",
+    "Hour",
+    "Temperature",
+    "RH",
+    "WindDirDegrees",
+    "WindDirCompass",
+    "WindSpeed",
+    "WindSpeedMax",
+    "Rain1Hr",
+    "Rain24Hr",
+    "TempMax",
+    "TempMin",
+    "RHMax",
+    "RHMin"
+])
+
+for row in records:
+
+    writer.writerow([
+        row[0],
+        f"{row[1]} {row[2]} {row[3]}",
+        row[4],
+        row[5],
+        row[6],
+        row[7],
+        row[8],
+        row[9],
+        row[10],
+        row[11],
+        row[12],
+        row[13],
+        row[14],
+        row[15],
+        row[16]
     ])
-
-    for row in records:
-
-        writer.writerow([
-            row[0],
-            f"{row[1]} {row[2]} {row[3]}",
-            row[4],
-            row[5],
-            row[6],
-            row[7]
-        ])
 
 print("Rows parsed:", len(records))
