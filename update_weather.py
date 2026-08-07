@@ -1,13 +1,17 @@
 import requests
 2
- 
+import pandas as pd
 3
-url = "https://www.gov.mb.ca/conservation_fire/Wx-Hour/currentwx.txt"
+from io import StringIO
 4
  
 5
-response = requests.get(url)
+url = "https://www.gov.mb.ca/conservation_fire/Wx-Hour/currentwx.txt"
 6
  
 7
-print(response.text)
+text = requests.get(url).text
+8
+ 
+9
+print(text)
