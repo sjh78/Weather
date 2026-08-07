@@ -37,21 +37,31 @@ for line in lines[data_start:]:
 
     records.append(parts)
 
-# Export simple CSV
+# Export clean CSV
+
 with open("weather.csv", "w", newline="", encoding="utf-8") as csvfile:
 
     writer = csv.writer(csvfile)
 
     writer.writerow([
         "Station",
-        "Field2",
-        "Field3",
-        "Field4",
-        "Field5",
-        "Field6",
-        "Field7",
-        "Field8"
+        "Date",
+        "Hour",
+        "Temperature",
+        "RH",
+        "WindDirection"
     ])
+
+    for row in records:
+
+        writer.writerow([
+            row[0],
+            f"{row[1]} {row[2]} {row[3]}",
+            row[4],
+            row[5],
+            row[6],
+            row[7]
+        ])
 
     for row in records:
         writer.writerow(row[:8])
