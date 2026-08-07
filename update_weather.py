@@ -63,7 +63,4 @@ with open("weather.csv", "w", newline="", encoding="utf-8") as csvfile:
             row[7]
         ])
 
-    for row in records:
-        writer.writerow(row[:8])
-
 print("Rows parsed:", len(records))
