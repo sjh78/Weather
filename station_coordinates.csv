@@ -1,64 +1,64 @@
-Orig	Abbrev	Full	Latitude	Longitude
- ATIKL   Aug 06	 ATIKL  	Atik Lake		
- BSSTT   Aug 06	 BSSTT  	Bissett		
- BURNT   Aug 06	 BURNT  	Burntwood		
- CACHE   Aug 06	 CACHE  	Cache Lake		
- ECWWC   Aug 06	 ECWWC  	Collins Bay		
- CRANP   Aug 06	 CRANP  	Cranberry Portage		
- CRETN   Aug 06	 CRETN  	Creighton		
- ECPOY   Aug 06	 ECPOY  	Cypress River	49.562407	-99.073804
- DEEPL   Aug 06	 DEEPL  	Deep Lake		
- DEVIL   Aug 06	 DEVIL  	Devil's Lake		
- EWART   Aug 06	 EWART  	Ewart Lake		
- FLCNL   Aug 06	 FLCNL  	Falcon Lake		
- ECWSZ   Aug 06	 ECWSZ  	Fisher Branch	51.083421	-97.554481
- FLNDL   Aug 06	 FLNDL  	Flanders Lake		
- GARLA   Aug 06	 GARLA  	Garland		
- GARYM   Aug 06	 GARYM  	Gary's Meadow		
- ECWWS   Aug 06	 ECWWS  	George Island	52.818739	-97.616445
- ECWGX   Aug 06	 ECWGX  	Gillam	56.35936	-94.70411
- GODSL   Aug 06	 GODSL  	Gods Lake		
- ECPGF   Aug 06	 ECPGF  	Great Falls	50.459013	-96.010316
- GRNLK   Aug 06	 GRNLK  	Green Lake		
- GUNNL   Aug 06	 GUNNL  	Gunn Lake		
- GYPSV   Aug 06	 GYPSV  	Gypsumville		
- HADAS   Aug 06	 HADAS  	Hadashville		
- HARGR   Aug 06	 HARGR  	Hargrave Ridge		
- HARTM   Aug 06	 HARTM  	Hart Mountain		
- HERMN   Aug 06	 HERMN  	Hermon Lake		
- HOOK    Aug 06	 HOOK   	Hooker Lake		
- ECYIV   Aug 06	 ECYIV  	Island Lake	53.857919	-94.652869
- JENPE   Aug 06	 JENPE  	Jenpeg	54.520662	-98.045568
- KEEYA   Aug 06	 KEEYA  	Keeyask		
- ECZKD   Aug 06	 ECZKD  	Kelsey Dam	56.037011	-96.511219
- KIPPN   Aug 06	 KIPPN  	Kippans Mill		
- KNOBH   Aug 06	 KNOBH  	Knob Hill South		
- LAURI   Aug 06	 LAURI  	Laurie River		
- LEAFR   Aug 06	 LEAFR  	Leaf Rapids		
- LGRPD   Aug 06	 LGRPD  	Little Grand Rapids		
- LONGP   Aug 06	 LONGP  	Long Point		
- ECYYL   Aug 06	 ECYYL  	Lynn Lake	56.864	-101.076
- MISSI   Aug 06	 MISSI  	Missi Falls		
- NOTIG   Aug 06	 NOTIG  	Notigi		
- NOTIH   Aug 06	 NOTIH  	Notigi Hydro		
- ECWOJ   Aug 06	 ECWOJ  	Oak Point Marine	50.499494	-98.036614
- OXFHS   Aug 06	 OXFHS  	Oxford House		
- PISEW   Aug 06	 PISEW  	Pisew Falls		
- PROSP   Aug 06	 PROSP  	Prospector		
- PUKAT   Aug 06	 PUKAT  	Pukatawagan		
- REED    Aug 06	 REED   	Reed Lake		
+Orig	Full	Latitude	Longitude
+ ATIKL	  Atik Lake		
+ BSSTT	  Bissett		
+ BURNT	  Burntwood		
+ CACHE   Cache Lake		
+ ECWWC   Collins Bay		
+ CRANP   Cranberry Portage		
+ CRETN   Creighton		
+ ECPOY   Cypress River	49.562407	-99.073804
+ DEEPL   Deep Lake		
+ DEVIL   Devil's Lake		
+ EWART   Ewart Lake		
+ FLCNL   Falcon Lake		
+ ECWSZ   Fisher Branch	51.083421	-97.554481
+ FLNDL   Flanders Lake		
+ GARLA   Garland		
+ GARYM   Gary's Meadow		
+ ECWWS   George Island	52.818739	-97.616445
+ ECWGX   Gillam	56.35936	-94.70411
+ GODSL   Gods Lake		
+ ECPGF   Great Falls	50.459013	-96.010316
+ GRNLK   Green Lake		
+ GUNNL   Gunn Lake		
+ GYPSV   Gypsumville		
+ HADAS   Hadashville		
+ HARGR   Hargrave Ridge		
+ HARTM   Hart Mountain		
+ HERMN   Hermon Lake		
+ HOOK    Hooker Lake		
+ ECYIV   Island Lake	53.857919	-94.652869
+ JENPE   Jenpeg	54.520662	-98.045568
+ KEEYA   Keeyask		
+ ECZKD   Kelsey Dam	56.037011	-96.511219
+ KIPPN   Kippans Mill		
+ KNOBH   Knob Hill South		
+ LAURI   Laurie River		
+ LEAFR   Leaf Rapids		
+ LGRPD   Little Grand Rapids		
+ LONGP   Long Point		
+ ECYYL   Lynn Lake	56.864	-101.076
+ MISSI   Missi Falls		
+ NOTIG   Notigi		
+ NOTIH   Notigi Hydro		
+ ECWOJ   Oak Point Marine	50.499494	-98.036614
+ OXFHS   Oxford House		
+ PISEW   Pisew Falls		
+ PROSP   Prospector		
+ PUKAT   Pukatawagan		
+ REED    Reed Lake		
  REEFL   Aug 06	 REEFL  	Reef Lake		
- ROSBG   Aug 06	 ROSBG  	Rosenburg Forest		
- ROUND   Aug 06	 ROUND  	Round Lake		
- SARAH   Aug 06	 SARAH  	Sarah Lake		
- SASSR   Aug 06	 SASSR  	Sassaginnigak River		
- SHERR   Aug 06	 SHERR  	Sherridon		
- ECPOW   Aug 06	 ECPOW  	Snow Lake	54.877882	-100.013308
- ECWJH   Aug 06	 ECWJH  	Southend		
- ECXBQ   Aug 06	 ECXBQ  	Tadoule Lake	58.7061	-98.5122
- ECPTO   Aug 06	 ECPTO  	Thompson		
- THPSN   Aug 06	 THPSN  	Thompson Hydro		
- WESTR   Aug 06	 WESTR  	Westray		
- WILL    Aug 06	 WILL   	William River		
- WOODR   Aug 06	 WOODR  	Woodridge		
- WUSKW   Aug 06	 WUSKW  	Wuskatim		
+ ROSBG   Rosenburg Forest		
+ ROUND   Round Lake		
+ SARAH   Sarah Lake		
+ SASSR   Sassaginnigak River		
+ SHERR   Sherridon		
+ ECPOW   Snow Lake	54.877882	-100.013308
+ ECWJH   Southend		
+ ECXBQ   Tadoule Lake	58.7061	-98.5122
+ ECPTO   Thompson		
+ THPSN   Thompson Hydro		
+ WESTR   Westray		
+ WILL    William River		
+ WOODR   Woodridge		
+ WUSKW   Wuskatim		
