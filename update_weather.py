@@ -32,11 +32,25 @@ for line in lines[data_start:]:
 
     parts = line.split()
 
-    if len(parts) < 8:
+    if len(parts) < 17:
         continue
 
     records.append(parts)
+# Load station coordinates
 
+station_lookup = {}
+
+with open("station_coordinates.csv", newline="", encoding="utf-8") as coordfile:
+
+    reader = csv.DictReader(coordfile)
+
+    for row in reader:
+
+        station_lookup[row["Station"].strip()] = {
+            "Full": row["Full"],
+            "Latitude": row["Latitude"],
+            "Longitude": row["Longitude"]
+        }
 # Export clean CSV
 
 with open("weather.csv", "w", newline="", encoding="utf-8") as csvfile:
@@ -45,6 +59,9 @@ with open("weather.csv", "w", newline="", encoding="utf-8") as csvfile:
 
     writer.writerow([
         "Station",
+        "Full",
+        "Latitude",
+        "Longitude",
         "Date",
         "Hour",
         "Temperature",
@@ -63,8 +80,15 @@ with open("weather.csv", "w", newline="", encoding="utf-8") as csvfile:
 
     for row in records:
 
+                station = row[0]
+
+        coords = station_lookup.get(station, {})
+
         writer.writerow([
-            row[0],
+            station,
+            coords.get("Full", ""),
+            coords.get("Latitude", ""),
+            coords.get("Longitude", ""),
             f"{row[1]} {row[2]} {row[3]}",
             row[4],
             row[5],
