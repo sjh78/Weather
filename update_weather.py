@@ -80,7 +80,7 @@ with open("weather.csv", "w", newline="", encoding="utf-8") as csvfile:
 
     for row in records:
 
-                station = row[0]
+        station = row[0]
 
         coords = station_lookup.get(station, {})
 
