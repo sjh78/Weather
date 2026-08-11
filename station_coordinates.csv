@@ -65,6 +65,6 @@ Station,Full,Latitude,Longitude
  ECWOO  	Wilson Creek	50.72	-99.531
  ECWNK  	Carman	49.501	-98.028
  ECWFO  	Bakers Narrows	54.67	-101.67
- ECWEA  	Pinawa	50.177	-96.06
- ECPIV  	Island Lake	53.853	-94.644
- LKSTG  	Lake St. George	51.72	-97.399
+ ECWEA,Pinawa,50.177,-96.06
+ ECPIV,Island Lake,53.853,-94.644
+ LKSTG,Lake St. George,51.72,-97.399
