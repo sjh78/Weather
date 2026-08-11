@@ -1,64 +1,70 @@
-Orig	Full	Latitude	Longitude
- ATIKL	  Atik Lake		
- BSSTT	  Bissett		
- BURNT	  Burntwood		
- CACHE   Cache Lake		
- ECWWC   Collins Bay		
- CRANP   Cranberry Portage		
- CRETN   Creighton		
- ECPOY   Cypress River	49.562407	-99.073804
- DEEPL   Deep Lake		
- DEVIL   Devil's Lake		
- EWART   Ewart Lake		
- FLCNL   Falcon Lake		
- ECWSZ   Fisher Branch	51.083421	-97.554481
- FLNDL   Flanders Lake		
- GARLA   Garland		
- GARYM   Gary's Meadow		
- ECWWS   George Island	52.818739	-97.616445
- ECWGX   Gillam	56.35936	-94.70411
- GODSL   Gods Lake		
- ECPGF   Great Falls	50.459013	-96.010316
- GRNLK   Green Lake		
- GUNNL   Gunn Lake		
- GYPSV   Gypsumville		
- HADAS   Hadashville		
- HARGR   Hargrave Ridge		
- HARTM   Hart Mountain		
- HERMN   Hermon Lake		
- HOOK    Hooker Lake		
- ECYIV   Island Lake	53.857919	-94.652869
- JENPE   Jenpeg	54.520662	-98.045568
- KEEYA   Keeyask		
- ECZKD   Kelsey Dam	56.037011	-96.511219
- KIPPN   Kippans Mill		
- KNOBH   Knob Hill South		
- LAURI   Laurie River		
- LEAFR   Leaf Rapids		
- LGRPD   Little Grand Rapids		
- LONGP   Long Point		
- ECYYL   Lynn Lake	56.864	-101.076
- MISSI   Missi Falls		
- NOTIG   Notigi		
- NOTIH   Notigi Hydro		
- ECWOJ   Oak Point Marine	50.499494	-98.036614
- OXFHS   Oxford House		
- PISEW   Pisew Falls		
- PROSP   Prospector		
- PUKAT   Pukatawagan		
- REED    Reed Lake		
- REEFL   Aug 06	 REEFL  	Reef Lake		
- ROSBG   Rosenburg Forest		
- ROUND   Round Lake		
- SARAH   Sarah Lake		
- SASSR   Sassaginnigak River		
- SHERR   Sherridon		
- ECPOW   Snow Lake	54.877882	-100.013308
- ECWJH   Southend		
- ECXBQ   Tadoule Lake	58.7061	-98.5122
- ECPTO   Thompson		
- THPSN   Thompson Hydro		
- WESTR   Westray		
- WILL    William River		
- WOODR   Woodridge		
- WUSKW   Wuskatim		
+Station,Full,Latitude,Longitude
+ ATIKL,Atik Lake,54.232,-101.358
+ BSSTT,Bissett,51.03,-95.702
+ BURNT,Burntwood,55.379,-100.489
+ CACHE,Cache Lake,51.621,-100.908
+ ECWWC,Collins Bay,58.178,-103.699
+ CRANP,Cranberry Portage,54.586176,-101.377607
+ CRETN,Creighton,54.649,-102.084
+ ECPOY,Cypress River,49.562407,-99.073804
+ DEEPL,Deep Lake,50.86,-100.84
+ DEVIL,Devil's Lake,52.466,-98.88
+ EWART  	Ewart Lake	52.4	-95.83
+ FLCNL  	Falcon Lake	49.7002	-95.32
+ ECWSZ  	Fisher Branch	51.083421	-97.554481
+ FLNDL  	Flanders Lake	50.435	-95.22
+ GARLA  	Garland	51.65	-100.47
+ GARYM  	Gary's Meadow	52.785	-101.049
+ ECWWS  	George Island	52.818739	-97.616445
+ ECWGX  	Gillam	56.35936	-94.70411
+ GODSL  	Gods Lake	54.55	-94.481
+ ECPGF  	Great Falls	50.459013	-96.010316
+ GRNLK  	Green Lake	50.1	-95.379
+ GUNNL  	Gunn Lake	50.85	-100.5
+ GYPSV  	Gypsumville	51.769	-98.64
+ HADAS  	Hadashville	49.64	-95.95
+ HARGR  	Hargrave Ridge	54.3	-99.828
+ HARTM  	Hart Mountain	52.481399	-101.4246137
+ HERMN  	Hermon Lake	55.18	-96.81
+ HOOK   	Hooker Lake	51.54	-96.23
+ ECYIV  	Island Lake	53.857919	-94.652869
+ JENPE  	Jenpeg	54.520662	-98.045568
+ KEEYA  	Keeyask	56.364	-95.239
+ ECZKD  	Kelsey Dam	56.037011	-96.511219
+ KIPPN  	Kippans Mill	50.93	-100.04
+ KNOBH  	Knob Hill South	50.718	-95.74
+ LAURI  	Laurie River	56.247883	-101.308386
+ LEAFR  	Leaf Rapids	56.471	-99.997
+ LGRPD  	Little Grand Rapids	52.036134	-95.461372
+ LONGP  	Long Point	52.869	-99.037
+ ECYYL  	Lynn Lake	56.864	-101.076
+ MISSI  	Missi Falls	57.322928	-98.135835
+ NOTIG  	Notigi	55.871	-99.311
+ NOTIH  	Notigi Hydro	55.86869	-99.323348
+ OXFHS  	Oxford House	54.948447	-95.265748
+ PISEW  	Pisew Falls	55.197016	-98.396943
+ PROSP  	Prospector	53.962548	-101.248189
+ PUKAT  	Pukatawagan	55.742315	-101.316178
+ REED   	Reed Lake	54.58	-100.623
+ REEFL  	Reef Lake	52.53	-96.57
+ ROSBG  	Rosenburg Forest	51.09695	-97.202553
+ ROUND  	Round Lake	52.01	-96.4
+ SARAH  	Sarah Lake	51.789	-101.293
+ SASSR  	Sassaginnigak River	51.531	-95.382
+ SHERR  	Sherridon	55.123963	-101.087041
+ ECPOW  	Snow Lake	54.877882	-100.013308
+ ECWJH  	Southend	56.33	-103.28
+ ECXBQ  	Tadoule Lake	58.7061	-98.5122
+ ECPTO  	Thompson	55.8	-97.861
+ THPSN  	Thompson Hydro	55.708	-97.891
+ WESTR  	Westray	53.597	-101.351
+ WILL   	William River	53.962	-99.222
+ WOODR  	Woodridge	49.28	-96.15
+ WUSKW  	Wuskatim	55.552578	-98.493045
+ ECZHB  	Hudson Bay	52.83	-101.999
+ ECWOO  	Wilson Creek	50.72	-99.531
+ ECWNK  	Carman	49.501	-98.028
+ ECWFO  	Bakers Narrows	54.67	-101.67
+ ECWEA  	Pinawa	50.177	-96.06
+ ECPIV  	Island Lake	53.853	-94.644
+ LKSTG  	Lake St. George	51.72	-97.399
