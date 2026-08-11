@@ -3,11 +3,11 @@ from datetime import datetime
 import os
 
 # Official NDAWN live data stream URL (Current hourly/5-min observations)
-URL = "https://nodak.edu"
+URL = "https://ndawn.ndsu.nodak.edu/current.html"
 
 try:
     # NDAWN API returns CSV text; skiprows handles the metadata headers if present
-    df = pd.read_html("https://nodak.edu")[0]
+    df = pd.read_html("https://ndawn.ndsu.nodak.edu/current.html")[0]
     
     # Clean up column names by joining multi-index levels if they exist
     if isinstance(df.columns, pd.MultiIndex):
