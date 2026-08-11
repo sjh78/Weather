@@ -13,7 +13,7 @@ Station,Full,Latitude,Longitude
  FLCNL,Falcon Lake,49.7002,-95.32
  ECWSZ,Fisher Branch,51.083421,-97.554481
  FLNDL,Flanders Lake,50.435,-95.22
- GARLA,Garland	51.65,-100.47
+ GARLA,Garland,51.65,-100.47
  GARYM,Gary's Meadow,52.785,-101.049
  ECWWS,George Island,52.818739,-97.616445
  ECWGX,Gillam,56.35936,-94.70411
@@ -57,14 +57,14 @@ Station,Full,Latitude,Longitude
  ECXBQ,Tadoule Lake,58.7061,-98.5122
  ECPTO,Thompson,55.8,-97.861
  THPSN,Thompson Hydro,55.708,-97.891
- WESTR  	Westray	53.597	-101.351
- WILL   	William River	53.962	-99.222
- WOODR  	Woodridge	49.28	-96.15
- WUSKW  	Wuskatim	55.552578	-98.493045
- ECZHB  	Hudson Bay	52.83	-101.999
- ECWOO  	Wilson Creek	50.72	-99.531
- ECWNK  	Carman	49.501	-98.028
- ECWFO  	Bakers Narrows	54.67	-101.67
+ WESTR,Westray,53.597,-101.351
+ WILL,William River,53.962,-99.222
+ WOODR,Woodridge,49.28,-96.15
+ WUSKW,Wuskatim,55.552578,-98.493045
+ ECZHB,Hudson Bay,52.83,-101.999
+ ECWOO,Wilson Creek,50.72,-99.531
+ ECWNK,Carman,49.501,-98.028
+ ECWFO,Bakers Narrows,54.67,-101.67
  ECWEA,Pinawa,50.177,-96.06
  ECPIV,Island Lake,53.853,-94.644
  LKSTG,Lake St. George,51.72,-97.399
