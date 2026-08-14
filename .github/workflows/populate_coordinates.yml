@@ -28,4 +28,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: ND-Coordinates
-        path: ND_coords_populated.csv
+        path: ND_station_list_with_coordinates.csv
