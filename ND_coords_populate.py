@@ -101,7 +101,7 @@ def extract_coordinates(info_url):
 # -----------------------------
 # Main
 # -----------------------------
-df = pd.read_excel(INPUT_FILE)
+df = pd.read_excel(INPUT_FILE, engine="openpyxl")
 
 df["Latitude"] = None
 df["Longitude"] = None
