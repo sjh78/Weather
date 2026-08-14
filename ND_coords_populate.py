@@ -7,7 +7,7 @@ import time
 # -----------------------------
 # Files
 # -----------------------------
-INPUT_FILE = "ND_station_list.xlsx"
+INPUT_FILE = "ND_station_list.csv"
 OUTPUT_FILE = "ND_station_list_with_coordinates.csv"
 
 # -----------------------------
@@ -101,7 +101,7 @@ def extract_coordinates(info_url):
 # -----------------------------
 # Main
 # -----------------------------
-df = pd.read_excel(INPUT_FILE, engine="openpyxl")
+df = pd.read_csv(INPUT_FILE)
 
 df["Latitude"] = None
 df["Longitude"] = None
