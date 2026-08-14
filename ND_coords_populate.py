@@ -7,8 +7,8 @@ import time
 # -----------------------------
 # Files
 # -----------------------------
-INPUT_FILE = "ND_coords.csv"
-OUTPUT_FILE = "ND_with_coordinates.csv"
+INPUT_FILE = "ND_station_list.xlsx"
+OUTPUT_FILE = "ND_station_list_with_coordinates.csv"
 
 # -----------------------------
 # Convert station name to NDAWN URL slug
