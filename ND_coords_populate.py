@@ -125,7 +125,7 @@ for i, row in df.iterrows():
 
     time.sleep(1)
 
-df.to_excel(OUTPUT_FILE, index=False)
+df.to_csv(OUTPUT_FILE, index=False)
 
 print()
 print("Finished")
