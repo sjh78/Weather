@@ -49,7 +49,11 @@ def get_station_info_url(station_name):
         r = requests.get(url, timeout=20)
         r.raise_for_status()
 
+        print(f"Trying URL: {url}")
+
         soup = BeautifulSoup(r.text, "html.parser")
+
+        print(r.text[:500])
 
         for a in soup.find_all("a", href=True):
             href = a["href"]
