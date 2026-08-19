@@ -125,6 +125,8 @@ for i, row in df.iterrows():
 
     time.sleep(1)
 
+print(df[['Station','Latitude','Longitude']].head(20))
+
 df.to_csv(OUTPUT_FILE, index=False)
 
 print()
