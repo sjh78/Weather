@@ -115,7 +115,7 @@ for i, row in df.iterrows():
 
     info_url = get_station_info_url(station)
 
- if info_url:
+if info_url:
 
     print(f"INFO URL FOUND: {info_url}")
 
