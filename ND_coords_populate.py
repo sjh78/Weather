@@ -117,11 +117,18 @@ for i, row in df.iterrows():
 
     if info_url:
 
-        lat, lon = extract_coordinates(info_url)
+    print(f"INFO URL FOUND: {info_url}")
 
-        df.at[i, "Latitude"] = lat
-        df.at[i, "Longitude"] = lon
-        df.at[i, "Source_URL"] = info_url
+    lat, lon = extract_coordinates(info_url)
+
+    print(f"LAT={lat}, LON={lon}")
+
+    df.at[i, "Latitude"] = lat
+    df.at[i, "Longitude"] = lon
+    df.at[i, "Source_URL"] = info_url
+
+else:
+    print(f"NO INFO URL FOUND: {station}")
 
     time.sleep(1)
 
